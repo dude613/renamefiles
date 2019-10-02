@@ -1,0 +1,1 @@
+get-childitem '*example.pdf' | Rename-Item -NewName { $_.Name.Replace('example.pdf','exampleNew.pdf') }
